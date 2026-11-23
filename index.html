@@ -48,21 +48,25 @@
       <a class="btn btn-ghost" href="#projects">See my work</a>
     </div>
 
-    <div class="terminal" aria-hidden="true">
-      <div class="terminal-bar"><span></span><span></span><span></span><em>mrhackoi@kali: ~/whoami</em></div>
-      <pre class="terminal-body"><code>$ whoami
-dhoni_kumar_shah — cybersecurity intern, new delhi
-
-$ cat focus.txt
-vapt · web application security · network security
-
-$ ls tools/
-nmap  burp-suite  owasp-zap  wireshark  nessus  metasploit
-
-$ status
-currently: cybersecurity intern @ networkwalks
-learning : every single day<span class="cursor">_</span></code></pre>
+    <div class="terminal" id="terminal">
+      <div class="terminal-bar"><span></span><span></span><span></span><em>mrhackoi@kali: ~</em></div>
+      <div class="terminal-screen" id="termScreen" aria-live="polite"></div>
+      <div class="terminal-chips" id="termChips">
+        <button data-cmd="help">help</button>
+        <button data-cmd="whoami">whoami</button>
+        <button data-cmd="ls">ls</button>
+        <button data-cmd="ls -la">ls -la</button>
+        <button data-cmd="cat about.txt">cat about.txt</button>
+        <button data-cmd="cat skills.txt">cat skills.txt</button>
+        <button data-cmd="cat experience.txt">cat experience.txt</button>
+        <button data-cmd="cat projects.txt">cat projects.txt</button>
+        <button data-cmd="cat contact.txt">cat contact.txt</button>
+        <button data-cmd="resume">resume</button>
+        <button data-cmd="clear">clear</button>
+      </div>
+      <p class="terminal-hint mono">Click a command above to run it. These built-in commands are all there is — start with <b>help</b>.</p>
     </div>
+
   </section>
 
   <!-- ============ ABOUT ============ -->
