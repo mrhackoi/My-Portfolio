@@ -40,7 +40,7 @@ Portfolio/
 1. Clone this repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/mrhackoi/My-Portfolio.git
 ```
 
 2. Open the project folder.
