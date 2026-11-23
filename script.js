@@ -35,7 +35,7 @@ nav.addEventListener("click", function (e) {
     ],
     "whoami": [
       "Dhoni Kumar Shah",
-      "Cybersecurity Intern — VAPT & Web Application Security",
+      "Cybersecurity Intern — SOC / Blue Team · VAPT",
       "New Delhi, India · BCA @ IGNOU · Diploma in Cybersecurity @ MMIIT",
       "Currently: Cybersecurity Intern @ NetworkWalks"
     ],
