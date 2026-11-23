@@ -25,11 +25,11 @@ nav.addEventListener("click", function (e) {
       "  whoami             who is Dhoni?",
       "  ls                 list files in this directory",
       "  ls -la             same list, with details",
-      "  cat about.txt      short bio",
-      "  cat skills.txt     tools and skills",
-      "  cat experience.txt internship history",
-      "  cat projects.txt   things he has built",
-      "  cat contact.txt    where to reach him",
+      "  about              short bio",
+      "  skills             tools and skills",
+      "  experience         internship history",
+      "  projects           things he has built",
+      "  contact            where to reach him",
       "  resume             download the resume (PDF)",
       "  clear              clear the terminal"
     ],
@@ -40,35 +40,30 @@ nav.addEventListener("click", function (e) {
       "Currently: Cybersecurity Intern @ NetworkWalks"
     ],
     "ls": [
-      "about.txt  skills.txt  experience.txt  projects.txt  contact.txt  resume.pdf"
+      "about  skills  experience  projects  contact  resume.pdf"
     ],
     "ls -la": [
       "total 96",
-      "-rw-r--r-- 1 mrhackoi mrhackoi   612 Nov 23 08:00 about.txt",
-      "-rw-r--r-- 1 mrhackoi mrhackoi   845 Nov 23 08:00 skills.txt",
-      "-rw-r--r-- 1 mrhackoi mrhackoi  1204 Nov 23 08:00 experience.txt",
-      "-rw-r--r-- 1 mrhackoi mrhackoi   977 Nov 23 08:00 projects.txt",
-      "-rw-r--r-- 1 mrhackoi mrhackoi   388 Nov 23 08:00 contact.txt",
+      "-rw-r--r-- 1 mrhackoi mrhackoi   612 Nov 23 08:00 about",
+      "-rw-r--r-- 1 mrhackoi mrhackoi   845 Nov 23 08:00 skills",
+      "-rw-r--r-- 1 mrhackoi mrhackoi  1204 Nov 23 08:00 experience",
+      "-rw-r--r-- 1 mrhackoi mrhackoi   977 Nov 23 08:00 projects",
+      "-rw-r--r-- 1 mrhackoi mrhackoi   388 Nov 23 08:00 contact",
       "-rw-r--r-- 1 mrhackoi mrhackoi 70486 Nov 23 08:00 resume.pdf"
     ],
-    "cat about.txt": [
-      "BCA undergraduate (IGNOU) with a Diploma in Cybersecurity (MMIIT,",
-      "in progress). Seven virtual internships in VAPT and web",
-      "application security. Tests with Burp Suite, Nmap and OWASP ZAP;",
-      "documents findings with impact, risk ratings and remediation.",
-      "Practises in a home lab — Kali, Windows Server 2022, DVWA,",
-      "OWASP Juice Shop — and on TryHackMe / Hack The Box (20+ rooms)."
+    "about": [
+      "BCA student (IGNOU) + Diploma in Cybersecurity (MMIIT).",
+      "7 internships in VAPT & web app security.",
+      "Loves breaking web apps — and documenting how to fix them.",
+      "Home lab + TryHackMe / Hack The Box (20+ rooms)."
     ],
-    "cat skills.txt": [
-      "tools    : Nmap, Burp Suite, OWASP ZAP, Metasploit, Wireshark,",
-      "           Nessus, Nikto, Gobuster, Netcat, John the Ripper",
-      "vapt     : Vulnerability Assessment, Penetration Testing,",
-      "           OWASP Top 10, SQLi, XSS, CSRF, LFI, Command Injection",
-      "network  : TCP/IP, OSI, DNS/DHCP, Subnetting, Traffic Analysis,",
-      "           Firewalls, Security Hardening",
-      "code     : Python, Bash, JavaScript, SQL, HTML, CSS"
+    "skills": [
+      "tools  : Nmap, Burp Suite, ZAP, Wireshark, Nessus, Metasploit",
+      "vapt   : OWASP Top 10, SQLi, XSS, CSRF, LFI, Command Injection",
+      "network: TCP/IP, DNS, Subnetting, Firewalls, Traffic Analysis",
+      "code   : Python, Bash, JavaScript, SQL"
     ],
-    "cat experience.txt": [
+    "experience": [
       "Oct 2026 - Present  Cybersecurity Intern        NetworkWalks",
       "Oct 2026            Cybersecurity Intern        Horizon TechX",
       "Oct 2026            Cybersecurity Intern        CyberSNova",
@@ -77,7 +72,7 @@ nav.addEventListener("click", function (e) {
       "Sep 2026            Web App Pentesting Intern   IqraSec Academy",
       "Aug 2026            Cyber Security Intern       Redynox"
     ],
-    "cat projects.txt": [
+    "projects": [
       "Network Toolkit      Python + Scapy network toolkit (CLI + GUI)",
       "Secure Coding Review Flask app audit — tests 6/6 passing",
       "Phishing URL Checker Python CLI flagging phishing signals",
@@ -85,7 +80,7 @@ nav.addEventListener("click", function (e) {
       "",
       "Full code on GitHub: github.com/mrhackoi"
     ],
-    "cat contact.txt": [
+    "contact": [
       "LinkedIn : linkedin.com/in/dhoni-shah",
       "GitHub   : github.com/mrhackoi",
       "TryHackMe: tryhackme.com/p/MrHackoi",
