@@ -1,18 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Dhoni Shah | Developer Portfolio</title>
-    <meta name="author" content="Dhoni Shah" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-389Bi8ms.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-hRA7WE9W.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dhoni Kumar Shah — Cybersecurity Intern | VAPT & Web Application Security</title>
+<meta name="description" content="Dhoni Kumar Shah is a cybersecurity intern based in New Delhi, focused on VAPT and web application security. Burp Suite, Nmap, Wireshark. BCA @ IGNOU." />
+<meta name="author" content="Dhoni Kumar Shah" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230b0d0c'/><text x='50' y='68' font-size='58' text-anchor='middle' fill='%237ee787' font-family='monospace' font-weight='bold'>D</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">dhoni<span class="accent">.shah</span><span class="cursor">_</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-resume" href="resume.pdf" download>Résumé ↓</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">≡</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero wrap">
+    <p class="hero-kicker mono"><span class="dot"></span> Open to cybersecurity internships — New Delhi / Remote</p>
+    <h1>Dhoni Kumar Shah</h1>
+    <p class="hero-role">Cybersecurity Intern <span class="accent">/</span> VAPT &amp; Web Application Security</p>
+    <p class="hero-text">
+      I find vulnerabilities in web applications and networks before the wrong people do —
+      and I document them properly: impact, risk rating, remediation. Seven virtual internships,
+      a Python + Scapy network toolkit, and a home lab that never really switches off.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-solid" href="resume.pdf" download>Download résumé</a>
+      <a class="btn btn-ghost" href="resume.html">View résumé</a>
+      <a class="btn btn-ghost" href="#projects">See my work</a>
+    </div>
+
+    <div class="terminal" aria-hidden="true">
+      <div class="terminal-bar"><span></span><span></span><span></span><em>mrhackoi@kali: ~/whoami</em></div>
+      <pre class="terminal-body"><code>$ whoami
+dhoni_kumar_shah — cybersecurity intern, new delhi
+
+$ cat focus.txt
+vapt · web application security · network security
+
+$ ls tools/
+nmap  burp-suite  owasp-zap  wireshark  nessus  metasploit
+
+$ status
+currently: cybersecurity intern @ networkwalks
+learning : every single day<span class="cursor">_</span></code></pre>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section wrap">
+    <h2 class="section-title mono"><span class="accent">01.</span> about</h2>
+    <div class="about-grid">
+      <div>
+        <p>
+          I'm a BCA undergraduate at IGNOU with a Diploma in Cybersecurity from MMIIT (in progress),
+          based in New Delhi. My work sits on the offensive side — vulnerability assessment and
+          penetration testing of web applications and networks — with a defender's habit of writing
+          everything down.
+        </p>
+        <p>
+          Across seven virtual internships I've tested real targets in controlled scopes: recon and
+          enumeration with Nmap and Gobuster, web assessments with Nikto, and manual testing in
+          Burp Suite for Blind SQLi, Stored XSS, CSRF, LFI and command injection. On the build side,
+          I write Python tooling — a network toolkit with Scapy, a phishing-URL checker — and I've
+          done a full secure coding review of a Flask app where the fixes were verified by automated
+          tests, 6 out of 6 passing.
+        </p>
+        <p>
+          When I'm not interning, I'm in the lab: Kali, Windows Server 2022, Metasploitable, DVWA and
+          OWASP Juice Shop, or working through rooms on TryHackMe and Hack The Box.
+        </p>
+      </div>
+      <aside class="facts mono">
+        <div><span>location</span>New Delhi, India</div>
+        <div><span>degree</span>BCA, IGNOU (2026 — )</div>
+        <div><span>diploma</span>Cybersecurity, MMIIT</div>
+        <div><span>internships</span>7 (virtual)</div>
+        <div><span>tryhackme</span>20+ rooms</div>
+        <div><span>looking for</span>VAPT / Security Intern roles</div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section wrap">
+    <h2 class="section-title mono"><span class="accent">02.</span> skills</h2>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h3>Tools of the trade</h3>
+        <ul class="chips">
+          <li>Nmap</li><li>Burp Suite</li><li>OWASP ZAP</li><li>Metasploit</li>
+          <li>Wireshark</li><li>Nessus</li><li>Nikto</li><li>Gobuster</li>
+          <li>Netcat</li><li>John the Ripper</li><li>Kali Linux</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>VAPT &amp; web security</h3>
+        <ul class="chips">
+          <li>Vulnerability Assessment</li><li>Penetration Testing</li><li>Vulnerability Scanning</li>
+          <li>OWASP Top 10</li><li>SQL Injection</li><li>Blind SQLi</li><li>XSS</li><li>CSRF</li>
+          <li>LFI</li><li>Command Injection</li><li>API Security</li><li>Security Assessments</li>
+          <li>Reporting — risk ratings &amp; remediation</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Networks &amp; systems</h3>
+        <ul class="chips">
+          <li>TCP/IP</li><li>OSI Model</li><li>DNS / DHCP</li><li>Subnetting</li>
+          <li>Traffic Analysis</li><li>Firewalls</li><li>Security Hardening</li>
+          <li>Incident Response Fundamentals</li><li>Windows Server 2022</li>
+          <li>Active Directory (lab)</li><li>VirtualBox</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <h3>Code</h3>
+        <ul class="chips">
+          <li>Python</li><li>Bash</li><li>JavaScript</li><li>SQL</li><li>HTML</li><li>CSS</li>
+        </ul>
+        <p class="skill-note">Practice: TryHackMe · Hack The Box · PortSwigger Web Security Academy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section wrap">
+    <h2 class="section-title mono"><span class="accent">03.</span> experience</h2>
+    <ol class="timeline">
+      <li>
+        <div class="t-head"><h3>Cybersecurity Intern — NetworkWalks</h3><span class="t-date mono">Oct 2026 — Present</span></div>
+        <p>Built a VirtualBox lab (Kali Linux attacker, Windows 10 target; NAT and Host-only networks) and verified connectivity between machines. Current focus: network security, VAPT and web application security.</p>
+      </li>
+      <li>
+        <div class="t-head"><h3>Cybersecurity Intern — Horizon TechX</h3><span class="t-date mono">Oct 2026</span></div>
+        <p>Built a Python + Scapy Network Toolkit (CLI and GUI) for packet sniffing, DNS lookup, traceroute and traffic analytics. Completed a secure coding review of a Flask + SQLite application — parameterized queries, password hashing, input validation — with automated security tests 6/6 passing. Also created phishing awareness training material.</p>
+      </li>
+      <li>
+        <div class="t-head"><h3>Cybersecurity Intern — CyberSNova</h3><span class="t-date mono">Oct 2026</span></div>
+        <p>Beginner and advanced VAPT projects: Nmap and Gobuster enumeration, Nikto web server assessment, and Burp Suite testing for Blind SQLi, Stored XSS, CSRF, LFI and Command Injection — each documented as a report with impact and remediation.</p>
+      </li>
+      <li>
+        <div class="t-head"><h3>AI-Powered Cybersecurity Intern — EWB Edutech</h3><span class="t-date mono">Oct 2026</span></div>
+        <p>Selected through the National Internship Portal. Studied AI-driven threat detection and built a Python Phishing URL Checker that flags IP-based hosts, punycode domains, plain HTTP and excessive subdomains.</p>
+      </li>
+      <li>
+        <div class="t-head"><h3>VAPT Intern — Trios Cyber</h3><span class="t-date mono">Sept 2026</span></div>
+        <p>Structured, authorized VAPT work following OWASP methodology: reconnaissance, enumeration, vulnerability analysis and professional reporting across web, API and network security.</p>
+      </li>
+      <li>
+        <div class="t-head"><h3>Web App Pentesting Intern — IqraSec Academy</h3><span class="t-date mono">Sept 2026</span></div>
+        <p>WAPT Cohort 01. Web application testing with Burp Suite — HTTP request/response inspection — for SQL Injection, XSS and CSRF, with findings and mitigations documented.</p>
+      </li>
+      <li>
+        <div class="t-head"><h3>Cyber Security Intern — Redynox</h3><span class="t-date mono">Aug 2026</span></div>
+        <p>Configured and tested Windows Defender Firewall, analyzed ICMP, DNS and HTTP traffic in Wireshark, and tested a vulnerable web application with OWASP ZAP (SQLi, XSS, CSRF) with documented findings and mitigations.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section wrap">
+    <h2 class="section-title mono"><span class="accent">04.</span> projects</h2>
+    <div class="project-list">
+      <article class="project">
+        <div class="p-head">
+          <h3><a href="https://github.com/mrhackoi/HorizonTechX-Network-Toolkit" target="_blank" rel="noopener">Network Toolkit ↗</a></h3>
+          <span class="p-stack mono">Python · Scapy · Tkinter</span>
+        </div>
+        <p>Network diagnostics and monitoring toolkit with both a CLI and a GUI: packet sniffing, ping, DNS lookup, traceroute and traffic analytics (protocol, packet size, top talkers), with TXT/CSV report export. Verified on Kali Linux — traceroute reached its destination in 9 hops, 20 packets captured on eth0.</p>
+      </article>
+      <article class="project">
+        <div class="p-head">
+          <h3><a href="https://github.com/mrhackoi/HorizonTechX_Secure_Coding_Review" target="_blank" rel="noopener">Secure Coding Review ↗</a></h3>
+          <span class="p-stack mono">Python · Flask · SQLite</span>
+        </div>
+        <p>Security audit and remediation of a Flask application: parameterized SQL queries, Werkzeug password hashing, input validation, generic auth errors, request size limits, debug mode off. Verified by an automated test suite — 6/6 passing — with a full audit report in the repo.</p>
+      </article>
+      <article class="project">
+        <div class="p-head">
+          <h3><a href="https://github.com/mrhackoi/phishing-url-awareness" target="_blank" rel="noopener">Phishing URL Checker ↗</a></h3>
+          <span class="p-stack mono">Python · CLI</span>
+        </div>
+        <p>Command-line tool that inspects a URL's text for phishing signals — @ symbols, length over 100 characters, IP-address hosts, 5+ hostname segments, punycode, and HTTP vs HTTPS — and explains every flag it raises.</p>
+      </article>
+      <article class="project">
+        <div class="p-head">
+          <h3><a href="https://github.com/mrhackoi/NETWORKWALKS-DHONI-B082-WK1-PM1-CYBERSECURITY-LAB-SETUP" target="_blank" rel="noopener">Cybersecurity Home Lab ↗</a></h3>
+          <span class="p-stack mono">VirtualBox · Kali · Windows Server</span>
+        </div>
+        <p>A multi-machine practice range: Kali Linux, Windows 10, Windows Server 2022, Metasploitable, DVWA and OWASP Juice Shop across NAT and Host-only networks, set up for attacker/defender exercises with verified connectivity.</p>
+      </article>
+    </div>
+    <p class="more-link mono">More on GitHub → <a href="https://github.com/mrhackoi" target="_blank" rel="noopener">github.com/mrhackoi</a></p>
+  </section>
+
+  <!-- ============ EDUCATION & CERTS ============ -->
+  <section id="education" class="section wrap">
+    <h2 class="section-title mono"><span class="accent">05.</span> education &amp; certifications</h2>
+    <div class="edu-grid">
+      <div>
+        <div class="edu-item">
+          <div class="t-head"><h3>BCA — IGNOU</h3><span class="t-date mono">2026 — Present</span></div>
+          <p>Bachelor of Computer Applications, Indira Gandhi National Open University, New Delhi.</p>
+        </div>
+        <div class="edu-item">
+          <div class="t-head"><h3>Diploma in Cybersecurity — MMIIT</h3><span class="t-date mono">2026 — Present</span></div>
+          <p>Computer and Information Systems Security. Coursework covered core cybersecurity concepts with hands-on practice in lab-based environments.</p>
+        </div>
+      </div>
+      <ul class="cert-list">
+        <li><strong>Security Operations — Fundamentals</strong><span>Google</span></li>
+        <li><strong>Introduction to Cybersecurity</strong><span>Cisco</span></li>
+        <li><strong>Cyber Career Essentials</strong><span></span></li>
+        <li><strong>Cybersecurity Job Simulation</strong><span>Mastercard · Forage, 2025</span></li>
+        <li><strong>Cybersecurity Analyst Job Simulation</strong><span>Tata · Forage, 2025</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section wrap contact">
+    <h2 class="section-title mono"><span class="accent">06.</span> contact</h2>
+    <p class="contact-text">
+      I'm looking for a VAPT or cybersecurity internship in Delhi where I can test real systems
+      and keep learning fast. If that's your team, my inbox is open.
+    </p>
+    <a class="btn btn-solid" href="mailto:dhonikumarr@gmail.com">dhonikumarr@gmail.com</a>
+    <ul class="socials mono">
+      <li><a href="https://www.linkedin.com/in/dhoni-shah" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+      <li><a href="https://github.com/mrhackoi" target="_blank" rel="noopener">GitHub ↗</a></li>
+      <li><a href="https://tryhackme.com/p/MrHackoi" target="_blank" rel="noopener">TryHackMe ↗</a></li>
+      <li><a href="resume.pdf" download>Résumé (PDF) ↓</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner mono">
+    <span>© <span id="year">2026</span> Dhoni Kumar Shah — New Delhi</span>
+    <span>Built by hand. No templates, no trackers.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
